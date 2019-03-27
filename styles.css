@@ -1,0 +1,145 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/* CSS file for php documents */
+
+/*header*/
+header{
+    background-color: #222222;
+    height: 150px
+}
+
+h1{
+    font-size: 30px;
+    color: #555555;
+    padding-top: 20px;
+    text-align: center;
+}
+h1 a{
+    text-decoration: none;
+    color: #555555;
+}
+h1 a:hover{
+    text-decoration: none;
+    color: #000000; 
+}
+
+/* body styles*/
+body{
+    background-color: #d2d2d2;
+}
+h2{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+
+/* list style */
+ul{
+    text-align: center;
+    padding-top: 30px;
+}
+
+ul li{
+    text-align: center;
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #b2b2b2;
+}
+li a:link {
+    text-decoration: none;
+}
+
+/*navigation menu*/
+.menu{
+    text-decoration: none;
+    color: #000000;
+}
+.menu:hover{
+    color: #555555;
+}
+
+
+/* stick the footer to the bootom of the site*/
+
+hr{
+    position: fixed;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #555555;
+    text-align: center;
+}
+
+
+.view-button{
+    padding-left: 10px; 
+    padding-top: 80px;
+}
+
+
+p1{
+    padding-bottom: 30px;
+}
