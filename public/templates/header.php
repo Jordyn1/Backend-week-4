@@ -12,7 +12,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <!doctype html>
 <html lang="en">
 <meta charset="utf-8">
-<link href="/Backend-week-4/public/assets/css/styles.css" rel="stylesheet" type="text/css" >  
+<link href="/movietrackerassignment/public/assets/css/styles.css" rel="stylesheet" type="text/css" >  
     
     <head>
         <title> Jordyn's Movie Tracker</title>        
