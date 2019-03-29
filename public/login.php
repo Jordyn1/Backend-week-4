@@ -96,7 +96,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link href="/Backend-week-4/public/assets/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="/movietrackerassignment/public/assets/css/styles.css" rel="stylesheet" type="text/css">
     
     
 </head>
