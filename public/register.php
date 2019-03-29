@@ -99,7 +99,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="utf-8">
     <title>Sign Up</title>
-    <link href="assets/css/styles.css" rel="stylesheet" type="text/css" >
+    <link href="/movietrackerassignment/public/assets/css/styles.css" rel="stylesheet" type="text/css" >
 </head>
 <body>
 
