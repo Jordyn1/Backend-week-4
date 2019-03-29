@@ -1,0 +1,292 @@
+/* custom font style - Open Sans*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,700i');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End of license*/
+
+
+
+
+
+/* CSS file for php documents */
+.wrapper{
+    width: 1436px;
+    margin: 0 auto;
+}
+
+
+/* index page css */
+/* h3 is the main title for the index page  */
+
+h3{
+    color: #ac3b61;
+    font-size: 100px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top: 260px;
+    font-weight: 600;
+}
+
+.index-menu{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #e27d60;
+}
+.index-menu:hover{
+    color: #000000;
+}
+.index-menu:visited{
+    color: #e27d60;
+}
+
+
+/* Login + register pages css */
+h4{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    color: #ac3b61;
+    padding-top: 240px;
+    padding-bottom: 30px;
+}
+/* had to add another div and class as the other ones had php inside and wouldn't let me edit using css */
+/*log in labels*/
+/*labels for all entry fields*/
+label{
+    font-family: 'Open Sans', sans-serif;
+    color: #747474;
+    font-size: 15px;
+    padding-right: 5px;
+    padding-left: 15px;
+}
+label1{
+    font-family: 'Open Sans', sans-serif;
+    color: #e27d60;
+    font-size: 15px;
+    padding-right: 30px;
+}
+.labels{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    margin-left: 610px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #e27d60;
+}
+
+/* register labels */
+.labels1{
+    
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #e27d60;
+    margin-left: 580px;
+}
+
+
+/*home page css*/
+.home-header{
+    padding-top: 260px;
+    text-align: center;
+}
+/* h7 is the 'logo'/title for the navigation  */
+h7{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    color: #ac3b61;
+    padding-top: 220px;
+    text-align: center;
+}
+h7 a{
+    text-decoration: none;
+    color: #ac3b61;
+    text-align: center;
+}
+h7 a:hover{
+    text-decoration: none;
+    color: #f8c6c6;
+    text-align: center;
+}
+/* home page navigation menu*/
+.home-menu{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #e27d60;
+}
+.home-menu:hover{
+  color: #b3b3b3;
+}
+.home-menu:visited{
+    color: #e27d60;
+}
+
+
+/*add and view all header styles*/
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: #2c3531;
+    padding-top: 20px;
+    text-align: center;
+}
+h1 a{
+    text-decoration: none;
+    color: #e66a6a;
+    text-align: center;
+}
+h1 a:hover{
+    text-decoration: none;
+    color: #da8e9c;
+    text-align: center;
+}
+/* styles for navigation menu on 'add' and 'view all' */
+ul{
+    text-align: center;
+    padding-top: 50px;
+}
+ul li{
+    font-family: 'Open Sans', sans-serif;
+    color: #f4f4f4;
+    text-align: right;
+    display: inline;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+}
+li a:link {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+li a:visited{
+    text-decoration: none;
+    color: #e27d60;
+}
+.navigation-header{
+    background-color: #f5dbd0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: auto;
+}
+
+
+/* body styles*/
+body{
+    background-color: #f5dbd0;
+}
+h2{
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: #ac3b61;
+}
+
+.navigation-break{
+    margin-top: 50px;
+}
+
+/*view all page styles*/
+.view-button{
+    padding-left: 50px; 
+    padding-top: 40px;
+}
+.results{
+    color: #555555;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.read-button{
+    text-decoration: none;
+    color: #ac3b61;
+    margin-top: 10px;
+}
+.delete-edit{
+    margin-top: 15px;
+}
+
+.add-fields{
+   text-align: center;
+    padding-top: 50px;
+}
+/*styling for all buttons in app*/
+.button{
+    font-size: 12px;
+    background-color: #6e3140;
+    border-radius: 12px;
+    color: #edc7b7;
+}
+
+/* stick the footer to the bootom of the site*/
+footer{
+    font-family:'Open Sans', sans-serif;
+    font-size: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #bab2b5;
+    text-align: center;
+}
